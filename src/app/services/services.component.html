@@ -1,0 +1,35 @@
+<div class="container">
+
+        <h1>Users</h1>
+
+        <ul *ngIf="users">
+          <li *ngFor="let user of users.data">
+            <img [src]="user.avatar">
+            <p>{{ user.id }}</p>
+            <br/>
+            <p>{{ user.first_name }} {{ user.last_name }}</p>
+            <br/>
+            <p>{{ user.email }}</p>
+          </li>
+        </ul>
+        
+        <h1>Posts</h1>
+
+   <ul>
+  <li *ngFor = "let post of posts">
+      <a>{{post.title}}</a>
+
+      <p>{{post.body}}</p>
+
+  </li>
+</ul> 
+
+
+       <ul>
+        <li *ngFor = "let Photo of Photos">
+                <img [src]="Photo.thumbnailUrl">     
+                 
+        </li>
+      </ul> 
+
+</div>

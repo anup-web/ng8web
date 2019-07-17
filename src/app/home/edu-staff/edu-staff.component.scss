@@ -1,0 +1,39 @@
+.title {
+    display: table;
+    width: 570px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin: 50px auto 50px;
+
+
+ h2 {
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    line-height: 25px;
+    padding-top: 20px;
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-weight: 700;
+ }
+}
+
+.title span {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    font-family: montserrat;
+    color: #00a2d2;
+
+}
+.title p {
+    float: left;
+    width: 100%;
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #444444;
+    font-style: italic;
+    line-height: 28px;
+}

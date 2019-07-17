@@ -1,0 +1,163 @@
+footer{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.ct_footer_bg {
+	float: left;
+	width: 100%;
+	position: relative;
+	background-color: #222222;
+	padding: 50px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+.widget {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.widget h5 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 0px 0px 15px;
+}
+.footer_col_1 > a {
+	display: block;
+	margin: 0px 0px 15px;
+}
+.footer_col_1 > a img {
+	width: auto;
+	height: auto;
+}
+.footer_col_1 p {
+	color: #b3b3b3;
+	margin: 0px 0px 15px;
+}
+.footer_col_1 span {
+	display: block;
+    margin: 0px 0px 15px;
+    color: #90a94c;
+}
+.foo_get_qoute {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.foo_get_qoute > a {
+	display: inline-block;
+	color: #fff;
+	padding: 13px 40px;
+	text-transform:uppercase;
+}
+.foo_get_qoute > a:hover {
+	background-color: #fff;
+	color: #222;
+}
+.foo_col_2 ul {
+	float: left;
+	width: 100%;
+}
+.foo_col_2 ul li {
+	display: inline-block;
+	width: 100%;
+	position: relative
+}
+.foo_col_2 ul li:before {
+	content: "\f0da";
+	position: absolute;
+	font-family: fontawesome;
+	left: 0px;
+	top: 8px;
+	font-size: 14px;
+	color: #b3b3b3;
+	width: auto;
+	height: auto;
+}
+.foo_col_2 ul li a {
+	display: block;
+	color: #b3b3b3;
+	padding: 8px 0px 8px 15px;
+	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;
+}
+.foo_col_2 ul li:hover a {
+	padding-left: 25px;
+}
+.foo_col_2 ul li:hover:before {
+	left: 5px;
+}
+.foo_col_4 ul {
+	float: left;
+	width: 100%;
+}
+.foo_col_4 ul li {
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	padding: 5px 0px;
+	font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #90a94c;
+}
+.foo_col_4 ul li:nth-child(3n) {
+	width: 30px;
+	height: 2px;
+	padding: 0px;
+	margin: 15px 0px 10px;
+}
+.foo_col_4 ul li:nth-child(4n) {
+	text-transform: uppercase;
+}
+/*
+	  ==============================================================
+		   Footer Opyright Widgets
+	  ==============================================================
+*/
+.ct_copyright_bg {
+	padding: 15px 0px;
+	background-color: #1c1c1c;
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.copyright_text {
+	float: left;
+	width: 100%;
+	position: relative;
+	color: #b3b3b3;
+}
+.copyright_text a {
+	display: inline-block;
+}
+.copyright_text a:hover {
+	color: #fff;
+}
+.copyright_social_icon {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.copyright_social_icon ul {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.copyright_social_icon ul li {
+	float: right;
+	position: relative;
+	margin-left: 10px;
+}
+.copyright_social_icon ul li a {
+	display: block;
+	width: 29px;
+	height: 29px;
+	border-radius: 100%;
+	color: #fff;
+	background-color: #282828;
+	color: #afafaf;
+	line-height: 29px;
+}
+.copyright_social_icon ul li:hover a {
+	color: #fff;
+}
